@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\App\DecoderApp\DecApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\App\DecoderApp\DecAppCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\App\DecoderApp\decmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\App\DecoderApp\DecApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\App\DecoderApp\DecAppCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\App\DecoderAnalyserApp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\VisualStudio\common.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+    <Natvis Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\VisualStudio\static_vector.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{017161F0-D4A4-3B86-B8BB-CDDBE9F125BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Natvis Files">
+      <UniqueIdentifier>{65F428BF-598C-3269-87CE-732BDC54DDE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0B5BB2CD-6FDD-3102-B8DF-A0CF33EF4A15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

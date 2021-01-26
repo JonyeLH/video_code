@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EFA5C1B7-5759-376E-AF33-F0F9356DF2EB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>EncoderLib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\lib\vs14\msvc-19.0\x86_64\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EncoderLib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EncoderLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\lib\vs14\msvc-19.0\x86_64\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EncoderLib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EncoderLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\lib\vs14\msvc-19.0\x86_64\minsizerel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EncoderLib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EncoderLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\lib\vs14\msvc-19.0\x86_64\relwithdebinfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EncoderLib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EncoderLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\.\x86;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\CommonLib\..\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"F:\cmake\New Folder\bin\cmake.exe" -HC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8 -BC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build --check-stamp-file C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build/source/Lib/EncoderLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\build\source\Lib\EncoderLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"F:\cmake\New Folder\bin\cmake.exe" -HC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8 -BC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build --check-stamp-file C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build/source/Lib/EncoderLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\build\source\Lib\EncoderLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"F:\cmake\New Folder\bin\cmake.exe" -HC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8 -BC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build --check-stamp-file C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build/source/Lib/EncoderLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\build\source\Lib\EncoderLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"F:\cmake\New Folder\bin\cmake.exe" -HC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8 -BC:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build --check-stamp-file C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/build/source/Lib/EncoderLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/12185/Desktop/VVCSoftware_VTM-VTM-5.1-2020-03-8/source/Lib/EncoderLib/CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\build\source\Lib\EncoderLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\AQp.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\BinEncoder.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CABACWriter.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncAdaptiveLoopFilter.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncCu.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncGOP.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncHRD.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncLib.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncModeCtrl.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncReshape.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncSampleAdaptiveOffset.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncSlice.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\InterSearch.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\IntraSearch.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\NALwrite.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\RateCtrl.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\SEIEncoder.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\SEIwrite.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\VLCWriter.cpp" />
+    <ClCompile Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\WeightPredAnalysis.cpp" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\AQp.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\Analyze.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\AnnexBwrite.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\BinEncoder.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\CABACWriter.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncAdaptiveLoopFilter.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncCfg.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncCu.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncGOP.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncHRD.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncLib.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncModeCtrl.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncReshape.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncSampleAdaptiveOffset.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\EncSlice.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\InterSearch.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\IntraSearch.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\NALwrite.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\RateCtrl.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\SEIEncoder.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\SEIwrite.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\VLCWriter.h" />
+    <ClInclude Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\Lib\EncoderLib\WeightPredAnalysis.h" />
+    <Natvis Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\VisualStudio\common.natvis" />
+    <Natvis Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\source\VisualStudio\static_vector.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\build\ZERO_CHECK.vcxproj">
+      <Project>{99588BE7-252B-39DD-AA15-68C030EBBCAE}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\12185\Desktop\VVCSoftware_VTM-VTM-5.1-2020-03-8\build\source\Lib\CommonLib\CommonLib.vcxproj">
+      <Project>{4013E44B-1EF1-3A66-AF17-7AAD1FE239CC}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
